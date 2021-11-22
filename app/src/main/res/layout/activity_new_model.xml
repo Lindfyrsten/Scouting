@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewModelActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/activity_new_model_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:text="@string/title_new_models"/>
+
+        <View
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/activity_new_model_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/lbl_name"
+                android:textSize="@dimen/h1"
+                android:inputType="textCapSentences"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/activity_new_model_age"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/lbl_age"
+                android:textSize="@dimen/h1"
+                android:inputType="number"/>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/activity_new_model_number"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/lbl_number"
+                android:textSize="@dimen/h1"
+                android:inputType="phone"/>
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/activity_new_model_cbmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/activity_new_model_mail"
+                    android:textSize="@dimen/paragraph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send email"/>
+
+                <Button
+                    android:layout_marginLeft="125dp"
+                    android:text="@string/photo"
+                    android:textSize="@dimen/button"
+                    android:id="@+id/activity_new_model_btnPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/activity_new_model_done"
+                android:layout_gravity="bottom|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_done_black_24dp"
+                />
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/activity_new_model_thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

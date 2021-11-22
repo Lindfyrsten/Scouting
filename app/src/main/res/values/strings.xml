@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ScoutingApp</string>
+    <string name="navigation_drawer_menu_home">Hjem</string>
+    <string name="toolbar_title_main_activity">Scouting</string>
+    <string name="title_new_models">NY MODEL</string>
+    <string name="lbl_name">Navn</string>
+    <string name="lbl_age">Alder</string>
+    <string name="lbl_number">Nummer</string>
+    <string name="empty_list">List is empty!</string>
+    <string name="mail">Mail</string>
+    <string name="photo">Tag billede</string>
+    <string name="modellist">SCOUTEDE MODELLER</string>
+    <string name="exit_dialog">Luk app?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

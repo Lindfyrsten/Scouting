@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="app_space_top">10dp</dimen>
+    <dimen name="app_space_left">10dp</dimen>
+    <dimen name="app_space_right">10dp</dimen>
+    <dimen name="app_space_bottom">10dp</dimen>
+
+    <dimen name="app_space_top2x">20dp</dimen>
+    <dimen name="app_space_left2x">20dp</dimen>
+    <dimen name="app_space_right2x">20dp</dimen>
+    <dimen name="app_space_bottom2x">20dp</dimen>
+
+    <dimen name="app_space_top3x">30dp</dimen>
+    <dimen name="app_space_left3x">30dp</dimen>
+    <dimen name="app_space_right3x">30dp</dimen>
+    <dimen name="app_space_bottom3x">30dp</dimen>
+
+    <dimen name="app_space_top4x">40dp</dimen>
+    <dimen name="app_space_left4x">40dp</dimen>
+    <dimen name="app_space_right4x">40dp</dimen>
+    <dimen name="app_space_bottom4x">40dp</dimen>
+
+    <dimen name="app_space_top5x">50dp</dimen>
+    <dimen name="app_space_left5x">50dp</dimen>
+    <dimen name="app_space_right5x">50dp</dimen>
+    <dimen name="app_space_bottom5x">50dp</dimen>
+</resources>

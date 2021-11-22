@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header">48sp</dimen>
+    <dimen name="title">42sp</dimen>
+    <dimen name="h1">36sp</dimen>
+    <dimen name="h2">34sp</dimen>
+    <dimen name="paragraph">24sp</dimen>
+    <dimen name="button">18sp</dimen>
+</resources>
